@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionex Smart Eyeglasses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f2ff;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #0066cc, #00ccff);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Segoe UI', sans-serif;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .logo {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            width: 50px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #0066cc;
+            position: relative;
+        }
+        section h2 {
+            color: #0066cc;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .details {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.8;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin-bottom: 15px;
+        }
+        .feature-list li::before {
+            content: '•';
+            color: #00ccff;
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        .contact-info {
+            background-color: #0066cc;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        .contact-info a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .geometric-background {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/triangles.png') repeat;
+            opacity: 0.05;
+        }
+        .blue-overlay {
+            background-color: rgba(0, 102, 204, 0.1);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Visionex_Logo.png" alt="Visionex Logo" class="logo">
+    <h1>Visionex</h1>
+    <p>Empowering the Visually Impaired with Seamless Navigation and Real-Time Obstacle Detection</p>
+    <div class="geometric-background"></div>
+</header>
+
+<div class="container">
+    <section>
+        <h2>About Visionex</h2>
+        <p class="details">Visionex Smart Eyeglasses are designed with cutting-edge technology to help visually impaired individuals navigate the world with greater independence and confidence. The glasses are equipped with ultrasonic sensors, a front-facing camera, and advanced image recognition algorithms that work together to detect obstacles in real time and provide immediate audio feedback.</p>
+        <p class="details">Through a combination of real-time environmental scanning, obstacle detection, and proximity sensing, Visionex gives wearers a complete understanding of their surroundings. The feedback provided is not just limited to proximity but also includes information on the nature of obstacles—whether it's a door, staircase, wall, or other objects—ensuring the user is always informed.</p>
+        <p class="details">The glasses are lightweight and ergonomic, ensuring comfort for prolonged use. The intuitive system ensures that users can focus on their surroundings without feeling overwhelmed by excessive information. With Visionex, visually impaired individuals can navigate through busy streets, crowded spaces, and even unfamiliar areas, all with a greater sense of confidence and independence.</p>
+    </section>
+
+    <section>
+        <h2>Product Features</h2>
+        <ul class="feature-list">
+            <li><strong>Obstacle Detection and Proximity Sensing:</strong> Visionex uses ultrasonic sensors to scan for obstacles, alerting the user to their proximity. The system detects various obstacles, including walls, stairs, and objects in their path.</li>
+            <li><strong>Real-Time Environmental Mapping:</strong> The glasses create a dynamic, real-time map of the surroundings, adapting as the user moves through different environments. This feature enhances spatial awareness and helps avoid potential hazards.</li>
+            <li><strong>Detailed Audio Feedback:</strong> The system offers precise audio cues, such as "wall ahead," "stairs left," or "open door," helping the user navigate with ease. The feedback is customizable based on the user’s preferences and needs.</li>
+            <li><strong>Front-Facing Camera with Image Recognition:</strong> This allows Visionex to identify obstacles visually and convey detailed descriptions through the speaker. The camera identifies common obstacles like tables, chairs, and people, and provides context-sensitive information.</li>
+            <li><strong>Lightweight and Comfortable:</strong> The ergonomic design ensures comfort and long-term wearability. The glasses are adjustable to fit different head sizes and are designed to be worn for extended periods without discomfort.</li>
+            <li><strong>Customizable Feedback:</strong> Users can adjust feedback settings to suit their needs and preferences. This includes volume control, audio cue preferences, and sensitivity adjustments.</li>
+            <li><strong>Seamless Smartphone Integration:</strong> Visionex integrates with a mobile app for additional customization and tracking. The app allows users to store their favorite locations, view detailed reports of their navigation history, and set up alerts for specific obstacles.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How It Works</h2>
+        <p class="details">Visionex uses ultrasonic sensors to emit sound waves and detect obstacles based on the returning echoes. The sensor data is processed in real time, allowing the system to estimate the distance to nearby objects. The front-facing camera continuously scans the environment, capturing images of the surrounding space. Advanced image recognition algorithms analyze the camera feed and identify various obstacles.</p>
+        <p class="details">Once obstacles are detected, the system communicates the necessary information to the user through an audio output near their ear. The feedback can be adjusted in terms of volume and type of information provided. In addition to proximity alerts, the system can describe the size, type, and shape of obstacles, helping the user understand the environment better.</p>
+        <p class="details">Visionex also has built-in safety features to ensure that the user is always aware of their surroundings. For example, the system can alert the user when they are nearing a high-risk area, such as the edge of a staircase or an open door, ensuring maximum safety in different environments.</p>
+    </section>
+</div>
+
+<section class="contact-info">
+    <h2>Contact Us</h2>
+    <p>At Visionex, we are committed to making the world more accessible for visually impaired individuals. Our mission is to bridge the gap between technology and independence, providing smart solutions that not only enhance the quality of life but also foster a sense of empowerment and confidence. If you have any inquiries, suggestions, or need further information about our Visionex Smart Eyeglasses, we would love to hear from you!</p>
+    <p>Our dedicated customer support team is available to assist you with any questions you may have about the product's features, compatibility, usage, or technical specifications. We understand that every user’s needs are unique, and we strive to offer personalized guidance and support.</p>
+    <p>Whether you’re a potential customer, a healthcare professional looking for innovative assistive technologies, or someone who simply wants to learn more about our product, don't hesitate to reach out to us. We value your feedback and are always eager to improve our products and services based on your experiences and suggestions.</p>
+    <p>If you would like to learn more about Visionex or have any specific queries, feel free to contact us directly at any time. We are available via email for all inquiries, and our team will respond promptly to ensure you have all the information you need to make an informed decision.</p>
+    <p>Email: <a href="mailto:visionex360@gmail.com">visionex360@gmail.com</a></p>
+    <p>We appreciate your interest in Visionex and look forward to connecting with you!</p>
+</section>
+
+<footer>
+    <p>Visionex | Empowering Independence with Technology</p>
+</footer>
+
+</body>
+</html>
